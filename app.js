@@ -1,4 +1,3 @@
-'use strict'
 
 const switcher = document.querySelector('.btn');
 switcher.addEventListener('click', function() {
@@ -12,4 +11,4 @@ switcher.addEventListener('click', function() {
         this.textContent = "Light";
     }
     console.log('current class name: ' + className);
-});
+});1
